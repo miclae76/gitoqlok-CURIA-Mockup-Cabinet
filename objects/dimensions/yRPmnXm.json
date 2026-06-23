@@ -1,0 +1,83 @@
+{
+  "qInfo": {
+    "qId": "yRPmnXm",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "=ETAT_AFFAIRE_LIB"
+    ],
+    "qFieldLabels": [
+      "ETAT_AFFAIRE_LIB"
+    ],
+    "qAlias": "ETAT_AFFAIRE_LIB",
+    "title": "ETAT_AFFAIRE_LIB",
+    "coloring": {
+      "changeHash": "0.2470768088906733",
+      "hasValueColors": true,
+      "colorMapRef": "yRPmnXm"
+    }
+  },
+  "qMetaDef": {
+    "title": "ETAT_AFFAIRE_LIB",
+    "description": "",
+    "tags": []
+  },
+  "_ColorMapModel": {
+    "qInfo": {
+      "qId": "ColorMapModel_yRPmnXm",
+      "qType": "ColorMap"
+    },
+    "qMeta": {
+      "title": "",
+      "description": "",
+      "createdDate": "2026-06-17T15:08:47.328Z",
+      "modifiedDate": "2026-06-22T15:29:52.913Z",
+      "published": false,
+      "publishTime": "1753-01-01T00:00:00.000Z",
+      "approved": false,
+      "qSize": -1,
+      "sourceObject": "",
+      "draftObject": ""
+    },
+    "colorMap": {
+      "colors": [
+        {
+          "value": "Clôturée",
+          "baseColor": {
+            "color": "#b0afae",
+            "index": 1
+          }
+        },
+        {
+          "value": "Suspendue",
+          "baseColor": {
+            "color": "#d76c6c",
+            "index": 4
+          }
+        },
+        {
+          "value": "En cours de désistement",
+          "baseColor": {
+            "color": "#ec983d",
+            "index": 5
+          }
+        },
+        {
+          "value": "En cours",
+          "baseColor": {
+            "color": "#65d3da",
+            "index": 14
+          }
+        }
+      ],
+      "nul": null,
+      "oth": null,
+      "pal": null,
+      "single": null,
+      "usePal": true,
+      "autoFill": true
+    }
+  }
+}

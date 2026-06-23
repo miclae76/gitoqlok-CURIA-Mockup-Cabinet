@@ -1,0 +1,44 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "45957f55-adfd-4aa4-b6b1-f160cf83378c",
+        "qType": "appprops"
+      },
+      "qMetaDef": {},
+      "sheetTitleBgColor": {
+        "index": -1,
+        "color": "#83161c",
+        "alpha": 1
+      },
+      "sheetTitleGradientColor": {
+        "index": 15,
+        "color": "#ffffff",
+        "alpha": 1
+      },
+      "sheetTitleColor": "#ffffff",
+      "sheetLogoThumbnail": {
+        "qStaticContentUrlDef": {
+          "qUrl": "/appcontent/c0ba5ed1-aff5-4008-b879-aba34470f523/logo-fr.png"
+        }
+      },
+      "sheetLogoPosition": "",
+      "rtl": false,
+      "theme": "breeze",
+      "disableCellNavMenu": false,
+      "disableCellContextMenu": false,
+      "chartAnimations": true,
+      "presets": [
+        {
+          "id": "UyQk",
+          "name": "Untitled preset",
+          "toolbar": {
+            "show": false
+          }
+        }
+      ],
+      "activePreset": "UyQk"
+    },
+    "qChildren": []
+  }
+]

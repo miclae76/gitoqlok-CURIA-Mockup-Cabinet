@@ -1,0 +1,374 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "532a9179-0060-4a14-92a5-190bce988bb2",
+      "qType": "masterobject"
+    },
+    "qMetaDef": {
+      "title": "Etat des affaires pendantes",
+      "description": "",
+      "tags": []
+    },
+    "qHyperCubeDef": {
+      "qDimensions": [
+        {
+          "qLibraryId": "yRPmnXm",
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "UUPNWm",
+            "othersLabel": "Others"
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_ABS_LIMITED",
+            "qOtherCounted": {
+              "qv": "10"
+            },
+            "qOtherLimit": {
+              "qv": "0"
+            },
+            "qOtherLimitMode": "OTHER_GT_LIMIT",
+            "qSuppressOther": true,
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qOtherLabel": {
+            "qv": "Others"
+          },
+          "qTotalLabel": {},
+          "qCalcCond": {},
+          "qAttributeExpressions": [],
+          "qAttributeDimensions": [
+            {
+              "qLibraryId": "yRPmnXm",
+              "qSortBy": {
+                "qSortByAscii": 1,
+                "qExpression": {}
+              },
+              "qAttribute": true,
+              "id": "colorByAlternative",
+              "colorMapRef": "yRPmnXm"
+            }
+          ],
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "othersLabel": "Others"
+        }
+      ],
+      "qMeasures": [
+        {
+          "qDef": {
+            "qLabel": "Affaires pendantes",
+            "qTags": [],
+            "qGrouping": "N",
+            "qDef": "if('$(v_Vision)'='Etendue', \r\n\tif('$(v_Affichage)'='PCT', \n\tnum(Count(NUMERO_AFFAIRE)/ Count(TOTAL NUMERO_AFFAIRE), '0.0%') \n\t,   Count(NUMERO_AFFAIRE)\n    )\n,\nif('$(v_Affichage)'='PCT', \n\tnum({<ETAT_AFFAIRE_LIB-={\"*Clo*\"} >}Count(NUMERO_AFFAIRE)/ Count(TOTAL NUMERO_AFFAIRE), '0.0%') \n,   {<ETAT_AFFAIRE_LIB-={\"*Clo*\"},IS_PENDANTE={1}>} Count(NUMERO_AFFAIRE)\n))",
+            "qNumFormat": {
+              "qType": "U",
+              "qnDec": 10,
+              "qUseThou": 0
+            },
+            "qAccumulate": 0,
+            "qActiveExpression": 0,
+            "qExpressions": [],
+            "autoSort": true,
+            "cId": "cqJWjtj",
+            "numFormatFromTemplate": true
+          },
+          "qSortBy": {
+            "qSortByNumeric": -1,
+            "qSortByLoadOrder": 1,
+            "qExpression": {}
+          },
+          "qAttributeExpressions": [],
+          "qAttributeDimensions": [],
+          "qCalcCond": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qTrendLines": [],
+          "qMiniChartDef": {
+            "qSortBy": {
+              "qExpression": {}
+            },
+            "qOtherTotalSpec": {
+              "qOtherMode": "OTHER_OFF",
+              "qOtherCounted": {},
+              "qOtherLimit": {},
+              "qOtherLimitMode": "OTHER_GT_LIMIT",
+              "qForceBadValueKeeping": true,
+              "qApplyEvenWhenPossiblyWrongResult": true,
+              "qOtherSortMode": "OTHER_SORT_DESCENDING",
+              "qTotalMode": "TOTAL_OFF",
+              "qReferencedExpression": {}
+            },
+            "qMaxNumberPoints": -1,
+            "qAttributeExpressions": []
+          }
+        }
+      ],
+      "qInterColumnSortOrder": [
+        0,
+        1
+      ],
+      "qSuppressMissing": true,
+      "qInitialDataFetch": [
+        {
+          "qLeft": 0,
+          "qTop": 0,
+          "qWidth": 10,
+          "qHeight": 500
+        }
+      ],
+      "qReductionMode": "N",
+      "qMode": "S",
+      "qPseudoDimPos": -1,
+      "qNoOfLeftDims": -1,
+      "qMaxStackedCells": 5000,
+      "qCalcCond": {},
+      "qTitle": {},
+      "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+      },
+      "qColumnOrder": [],
+      "qExpansionState": [],
+      "qDynamicScript": [],
+      "qLayoutExclude": {
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [],
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": []
+        }
+      }
+    },
+    "script": "",
+    "filter": null,
+    "showTitles": true,
+    "title": "Etat des affaires pendantes",
+    "subtitle": "",
+    "footnote": "",
+    "disableNavMenu": false,
+    "showDetails": true,
+    "showDetailsExpression": false,
+    "showDisclaimer": true,
+    "dataPoint": {
+      "showLabels": true,
+      "showSegmentLabels": false,
+      "showTotalLabels": true,
+      "auto": false,
+      "labelMode": "value",
+      "labelValueMode": "arc"
+    },
+    "color": {
+      "auto": false,
+      "mode": "byDimension",
+      "formatting": {
+        "numFormatFromTemplate": true
+      },
+      "useBaseColors": "off",
+      "paletteColor": {
+        "index": -1,
+        "color": "#8c6c39",
+        "alpha": 1
+      },
+      "useDimColVal": true,
+      "useMeasureGradient": true,
+      "persistent": false,
+      "expressionIsColor": true,
+      "expressionLabel": "",
+      "measureScheme": "sg",
+      "reverseScheme": false,
+      "dimensionScheme": "12",
+      "autoMinMax": true,
+      "measureMin": 0,
+      "measureMax": 10,
+      "altLabel": "ETAT_AFFAIRE_LIB",
+      "byDimDef": {
+        "label": "ETAT_AFFAIRE_LIB",
+        "key": "yRPmnXm",
+        "type": "libraryItem"
+      }
+    },
+    "legend": {
+      "show": false,
+      "dock": "auto",
+      "showTitle": true
+    },
+    "tooltip": {
+      "auto": true,
+      "hideBasic": false,
+      "chart": {
+        "style": {
+          "size": "medium"
+        }
+      },
+      "data": {}
+    },
+    "visualization": "piechart",
+    "version": "1.39.8",
+    "components": [
+      {
+        "key": "general",
+        "style": {
+          "strokeWidth": "none",
+          "strokeColor": {
+            "index": -1,
+            "color": "#FFFFFF"
+          },
+          "cornerRadius": 0,
+          "innerRadius": 0.55
+        },
+        "title": {
+          "main": {
+            "fontFamily": "Roboto, sans-serif",
+            "fontSize": "16px",
+            "color": {
+              "index": -1,
+              "color": "#83161c",
+              "alpha": 1
+            }
+          }
+        },
+        "bgColor": {
+          "useColorExpression": true,
+          "colorExpression": {
+            "qStringExpression": {
+              "qExpr": "if('$(v_Vision)'='Etendue', '#dcffdb', '#FFFFFF')"
+            }
+          }
+        }
+      },
+      {
+        "key": "bar"
+      },
+      {
+        "key": "axis"
+      },
+      {
+        "key": "label",
+        "label": {
+          "value": {
+            "fontSize": "14px"
+          }
+        }
+      },
+      {
+        "key": "legend"
+      },
+      {
+        "key": "slices",
+        "style": {
+          "strokeWidth": "small"
+        }
+      }
+    ],
+    "qLayoutExclude": {
+      "quarantine": {
+        "conditionalShowHide": {
+          "measures": {
+            "cqJWjtj": {
+              "qCond": {
+                "qv": ""
+              },
+              "qMsg": {
+                "qv": ""
+              }
+            }
+          },
+          "dimensions": {
+            "UUPNWm": {
+              "qCond": {
+                "qv": ""
+              },
+              "qMsg": {
+                "qv": ""
+              }
+            }
+          }
+        },
+        "supportedAutoMinMax": {
+          "measureAxis.min": 0,
+          "measureAxis.max": 10
+        }
+      },
+      "disabled": {
+        "qExtendsId": "",
+        "refLine": {
+          "refLines": [],
+          "dimRefLines": []
+        },
+        "plugins": [],
+        "barGrouping": {
+          "grouping": "grouped"
+        },
+        "orientation": "horizontal",
+        "scrollbar": "miniChart",
+        "scrollStartPos": 0,
+        "gridLine": {
+          "auto": false,
+          "spacing": 0
+        },
+        "dimensionAxis": {
+          "continuousAuto": true,
+          "show": "labels",
+          "label": "auto",
+          "dock": "near",
+          "axisDisplayMode": "auto",
+          "maxVisibleItems": 10
+        },
+        "preferContinuousAxis": true,
+        "measureAxis": {
+          "show": "all",
+          "dock": "near",
+          "spacing": 1,
+          "autoMinMax": true,
+          "minMax": "min",
+          "min": 0,
+          "max": 10
+        },
+        "showMiniChartForContinuousAxis": true
+      }
+    },
+    "donut": {
+      "showAsDonut": true
+    },
+    "dimensionTitle": false,
+    "masterVersion": 0.96
+  },
+  "qChildren": []
+}

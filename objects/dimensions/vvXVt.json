@@ -1,0 +1,76 @@
+{
+  "qInfo": {
+    "qId": "vvXVt",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "FORMATION"
+    ],
+    "qFieldLabels": [
+      "FORMATION"
+    ],
+    "qAlias": "FORMATION",
+    "title": "FORMATION",
+    "coloring": {
+      "changeHash": "0.3178660474677121",
+      "hasValueColors": true,
+      "colorMapRef": "vvXVt"
+    }
+  },
+  "qMetaDef": {
+    "title": "FORMATION",
+    "description": "",
+    "tags": []
+  },
+  "_ColorMapModel": {
+    "qInfo": {
+      "qId": "ColorMapModel_vvXVt",
+      "qType": "ColorMap"
+    },
+    "qMeta": {
+      "title": "",
+      "description": "",
+      "createdDate": "2026-06-17T15:23:50.557Z",
+      "modifiedDate": "2026-06-17T15:23:50.557Z",
+      "published": false,
+      "publishTime": "1753-01-01T00:00:00.000Z",
+      "approved": false,
+      "qSize": -1,
+      "sourceObject": "",
+      "draftObject": ""
+    },
+    "colorMap": {
+      "colors": [
+        {
+          "value": "Chambre à 3 juges",
+          "baseColor": {
+            "color": "#79d69f",
+            "index": 11
+          }
+        },
+        {
+          "value": "Chambre à 5 juges",
+          "baseColor": {
+            "color": "#578b60",
+            "index": 10
+          }
+        },
+        {
+          "value": "Grande chambre",
+          "baseColor": {
+            "color": "#70ba6e",
+            "index": 9
+          }
+        }
+      ],
+      "nul": null,
+      "oth": null,
+      "pal": null,
+      "single": null,
+      "usePal": true,
+      "autoFill": true
+    }
+  }
+}

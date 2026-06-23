@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "f93590c7-af46-43ba-a60b-05f480cf0853",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "v_Affichage",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "tags": []
+}

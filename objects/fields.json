@@ -1,0 +1,269 @@
+[
+  {
+    "qName": "ADMIN_GREFFE_LIB",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "AFFAIRES_CLOTUREES",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "AFFAIRES_INTRODUITES",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "AFFAIRES_PENDANTES",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "ARCHETYPE_PROCEDURAL_CODE",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "ARCHETYPE_PROCEDURAL_LIB",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "AVOCAT_GENERAL_LIB",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "DATE_CLOTURE",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "DATE_INTRODUCTION",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "DATE_REFERENCE",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "ETAT_AFFAIRE_CODE",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "ETAT_AFFAIRE_LIB",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "FORMATION",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "GREFFE_LIB",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "IS_PENDANTE",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "JUGE_RAPPORTEUR_LIB",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "JURIDICTION",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "LP",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "MATIERE_PRINCIPALE",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "NOM_USUEL",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "NUMERO_AFFAIRE",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "PHASE_PROCEDURALE",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "TYPE_CHAMBRE_LIB",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "TYPE_RECOURS_CODE",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "TYPE_RECOURS_LIB",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Affaires"
+    ]
+  },
+  {
+    "qName": "VISION_SA",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "test"
+    ]
+  },
+  {
+    "qName": "Vision",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "test"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "b7958dd4-798e-41f3-ba3a-2dfdbb5920e5",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "v_Vision",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "tags": []
+}

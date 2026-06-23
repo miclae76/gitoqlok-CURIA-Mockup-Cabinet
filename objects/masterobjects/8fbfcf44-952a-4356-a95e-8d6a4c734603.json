@@ -1,0 +1,263 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "8fbfcf44-952a-4356-a95e-8d6a4c734603",
+      "qType": "masterobject"
+    },
+    "qMetaDef": {
+      "title": "Container Synthèse",
+      "description": "",
+      "tags": []
+    },
+    "objects": [
+      {
+        "childRefId": "DupfupG",
+        "label": "Evolution du stock d'affaire",
+        "bounds": {
+          "height": 100,
+          "width": 100,
+          "x": 0,
+          "y": 0
+        },
+        "condition": {
+          "qValueExpression": {
+            "qExpr": "$(v_Details)=2"
+          }
+        }
+      },
+      {
+        "childRefId": "ptSeJZgt",
+        "label": "Détails des affaires ",
+        "bounds": {
+          "height": 100,
+          "width": 100,
+          "x": 0,
+          "y": 0
+        },
+        "condition": {
+          "qValueExpression": {
+            "qExpr": "$(v_Details)=1"
+          }
+        }
+      },
+      {
+        "childRefId": "pXncFWbs",
+        "label": "Top avocats généraux / juges rapporteurs",
+        "bounds": {
+          "height": 50,
+          "width": 49.75,
+          "x": 50.25,
+          "y": 50
+        },
+        "condition": {
+          "qValueExpression": {
+            "qExpr": "$(v_Details)=0"
+          }
+        }
+      },
+      {
+        "childRefId": "pGDwjpDL",
+        "label": "Répartition des affaires par matière",
+        "bounds": {
+          "height": 50,
+          "width": 49.75,
+          "x": 0,
+          "y": 50
+        },
+        "condition": {
+          "qValueExpression": {
+            "qExpr": "$(v_Details)=0"
+          }
+        }
+      },
+      {
+        "childRefId": "ptPUmrkM",
+        "label": "Répartition par type de recours",
+        "bounds": {
+          "height": 49,
+          "width": 33,
+          "x": 67,
+          "y": 0
+        },
+        "condition": {
+          "qValueExpression": {
+            "qExpr": "$(v_Details)=0"
+          }
+        }
+      },
+      {
+        "childRefId": "ysysgYJ",
+        "label": "Etat des affaires pendantes",
+        "bounds": {
+          "height": 49,
+          "width": 33,
+          "x": 33.5,
+          "y": 0
+        },
+        "condition": {
+          "qValueExpression": {
+            "qExpr": "$(v_Details)=0"
+          }
+        }
+      },
+      {
+        "childRefId": "ppmbJexP",
+        "label": "Répartition des affaires pendantes par formation",
+        "bounds": {
+          "height": 49,
+          "width": 33,
+          "x": 0,
+          "y": 0
+        },
+        "condition": {
+          "qValueExpression": {
+            "qExpr": "$(v_Details)=0"
+          }
+        }
+      }
+    ],
+    "showTitles": true,
+    "title": "",
+    "subtitle": "",
+    "footnote": "",
+    "disableNavMenu": true,
+    "showDetails": false,
+    "showDetailsExpression": false,
+    "components": [
+      {
+        "key": "general",
+        "bgColor": {
+          "color": {
+            "index": -1,
+            "color": "#e5e5e5",
+            "alpha": 1
+          }
+        }
+      }
+    ],
+    "constrainToContainer": true,
+    "showGridLines": false,
+    "gridRowCount": 24,
+    "gridColumnCount": 36,
+    "snapToGrid": false,
+    "visualization": "sn-layout-container",
+    "qChildListDef": {
+      "qData": {
+        "visualization": "/visualization",
+        "qExtendsId": "/qExtendsId",
+        "title": "/title",
+        "childRefId": "/childRefId"
+      }
+    },
+    "version": "4.0.1",
+    "extensionMeta": {
+      "translationKey": "",
+      "icon": "layout-container",
+      "iconChar": "puzzle",
+      "isLibraryItem": true,
+      "visible": true,
+      "name": "Layout container",
+      "description": "The layout container object has a canvas that can hold multiple objects. In this container you can freely move objects around, as well as position the objects on top of each other or overlapping.",
+      "template": "sn-layout-container",
+      "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+      "isThirdParty": true,
+      "version": "4.0.1",
+      "author": "QlikTech International AB",
+      "type": "visualization",
+      "supernova": true,
+      "bundle": {
+        "id": "qlik-dashboard-bundle",
+        "name": "Qlik Dashboard bundle",
+        "description": "This is a set of supported objects that will facilitate dashboard creation in Qlik Sense. These can be used in addition to the objects found under \"Charts\".\n\nFor limitations and support conditions, see the documentation."
+      },
+      "installer": "QlikExtensionBundler"
+    },
+    "masterVersion": 0.96
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "047ce263-9fbd-41b4-9484-ee457652a3d3",
+          "qType": "childObject"
+        },
+        "qExtendsId": "717b95cc-b51e-4139-bf75-fe9486fca732",
+        "qMetaDef": {},
+        "childRefId": "ppmbJexP"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "04813664-7d52-4c71-b63b-4c15cb6af54d",
+          "qType": "childObject"
+        },
+        "qExtendsId": "532a9179-0060-4a14-92a5-190bce988bb2",
+        "qMetaDef": {},
+        "childRefId": "ysysgYJ"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "bb910d8f-c280-4321-92aa-28d2fe5ba041",
+          "qType": "childObject"
+        },
+        "qExtendsId": "aa340c2a-3298-4533-8f5a-9ed4802851b8",
+        "qMetaDef": {},
+        "childRefId": "ptPUmrkM"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "94ccb2d8-ef1b-488a-bd24-31810e52f869",
+          "qType": "childObject"
+        },
+        "qExtendsId": "78d9fd96-f5fc-4a59-bf07-1c359ad21ca7",
+        "qMetaDef": {},
+        "childRefId": "pGDwjpDL"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "5aedd3a1-a1b2-4ef6-a97a-611daa3ac510",
+          "qType": "childObject"
+        },
+        "qExtendsId": "8dfffd64-02f4-452e-bd28-e38fc123a8f7",
+        "qMetaDef": {},
+        "childRefId": "pXncFWbs"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "097fc6f9-fc66-4f39-86c1-54e515c990c1",
+          "qType": "childObject"
+        },
+        "qExtendsId": "a1337a5e-2164-43c5-a62c-6a956f4de570",
+        "qMetaDef": {},
+        "childRefId": "ptSeJZgt"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "9e657f33-fb53-4df8-b79a-24544a5870e3",
+          "qType": "childObject"
+        },
+        "qExtendsId": "c75d8504-9888-4294-8211-1355a5987a52",
+        "qMetaDef": {},
+        "childRefId": "DupfupG"
+      },
+      "qChildren": []
+    }
+  ]
+}

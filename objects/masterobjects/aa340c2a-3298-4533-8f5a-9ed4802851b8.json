@@ -1,0 +1,366 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "aa340c2a-3298-4533-8f5a-9ed4802851b8",
+      "qType": "masterobject"
+    },
+    "qMetaDef": {
+      "title": "Répartition par type de recours",
+      "description": "",
+      "tags": []
+    },
+    "qHyperCubeDef": {
+      "qDimensions": [
+        {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "TYPE_RECOURS_LIB"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "HdJb",
+            "othersLabel": "Others"
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_COUNTED",
+            "qOtherCounted": {
+              "qv": "10"
+            },
+            "qOtherLimit": {
+              "qv": "0"
+            },
+            "qOtherLimitMode": "OTHER_GE_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qOtherLabel": {
+            "qv": "Others"
+          },
+          "qTotalLabel": {},
+          "qCalcCond": {},
+          "qAttributeExpressions": [
+            {
+              "qExpression": "if('$(v_Affichage)'='PCT', \r\n\tnum(Count(NUMERO_AFFAIRE)/ Count(TOTAL NUMERO_AFFAIRE), '0.0%') \n,  Count(NUMERO_AFFAIRE)\n)",
+              "qAttribute": true,
+              "id": "colorByAlternative",
+              "label": "Affaires pendantes"
+            }
+          ],
+          "qAttributeDimensions": [],
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          }
+        }
+      ],
+      "qMeasures": [
+        {
+          "qDef": {
+            "qLabel": "Affaires pendantes",
+            "qTags": [],
+            "qGrouping": "N",
+            "qDef": "if('$(v_Affichage)'='PCT', \r\n\tnum(Count(NUMERO_AFFAIRE)/ Count(TOTAL NUMERO_AFFAIRE), '0.0%') \n,  Count(NUMERO_AFFAIRE)\n)",
+            "qNumFormat": {
+              "qType": "U",
+              "qnDec": 10,
+              "qUseThou": 0
+            },
+            "qAccumulate": 0,
+            "qActiveExpression": 0,
+            "qExpressions": [],
+            "autoSort": true,
+            "cId": "cqJWjtj",
+            "numFormatFromTemplate": true
+          },
+          "qSortBy": {
+            "qSortByNumeric": -1,
+            "qSortByLoadOrder": 1,
+            "qExpression": {}
+          },
+          "qAttributeExpressions": [],
+          "qAttributeDimensions": [],
+          "qCalcCond": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qTrendLines": [],
+          "qMiniChartDef": {
+            "qSortBy": {
+              "qExpression": {}
+            },
+            "qOtherTotalSpec": {
+              "qOtherMode": "OTHER_OFF",
+              "qOtherCounted": {},
+              "qOtherLimit": {},
+              "qOtherLimitMode": "OTHER_GT_LIMIT",
+              "qForceBadValueKeeping": true,
+              "qApplyEvenWhenPossiblyWrongResult": true,
+              "qOtherSortMode": "OTHER_SORT_DESCENDING",
+              "qTotalMode": "TOTAL_OFF",
+              "qReferencedExpression": {}
+            },
+            "qMaxNumberPoints": -1,
+            "qAttributeExpressions": []
+          }
+        }
+      ],
+      "qInterColumnSortOrder": [
+        1,
+        0
+      ],
+      "qSuppressMissing": true,
+      "qInitialDataFetch": [
+        {
+          "qLeft": 0,
+          "qTop": 0,
+          "qWidth": 10,
+          "qHeight": 500
+        }
+      ],
+      "qReductionMode": "N",
+      "qMode": "S",
+      "qPseudoDimPos": -1,
+      "qNoOfLeftDims": -1,
+      "qMaxStackedCells": 5000,
+      "qCalcCond": {},
+      "qTitle": {},
+      "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+      },
+      "qColumnOrder": [],
+      "qExpansionState": [],
+      "qDynamicScript": [],
+      "qLayoutExclude": {
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [],
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": []
+        }
+      }
+    },
+    "script": "",
+    "filter": null,
+    "showTitles": true,
+    "title": "Répartition par type de recours",
+    "subtitle": "",
+    "footnote": "",
+    "disableNavMenu": false,
+    "showDetails": true,
+    "showDetailsExpression": false,
+    "showDisclaimer": true,
+    "donut": {
+      "showAsDonut": true
+    },
+    "dimensionTitle": false,
+    "dataPoint": {
+      "auto": false,
+      "labelMode": "value",
+      "labelValueMode": "arc",
+      "showLabels": true,
+      "showSegmentLabels": false,
+      "showTotalLabels": true
+    },
+    "color": {
+      "auto": false,
+      "mode": "byMeasure",
+      "formatting": {
+        "numFormatFromTemplate": true
+      },
+      "useBaseColors": "off",
+      "paletteColor": {
+        "index": -1,
+        "color": "#8c6c39",
+        "alpha": 1
+      },
+      "useDimColVal": true,
+      "useMeasureGradient": true,
+      "persistent": false,
+      "expressionIsColor": true,
+      "expressionLabel": "",
+      "measureScheme": "sc",
+      "reverseScheme": false,
+      "dimensionScheme": "12",
+      "autoMinMax": true,
+      "measureMin": 0,
+      "measureMax": 10,
+      "altLabel": "Affaires pendantes",
+      "byDimDef": {
+        "label": "ETAT_AFFAIRE_LIB",
+        "key": "yRPmnXm",
+        "type": "libraryItem"
+      },
+      "byMeasureDef": {
+        "label": "Affaires pendantes",
+        "key": "if('$(v_Affichage)'='PCT', \r\n\tnum(Count(NUMERO_AFFAIRE)/ Count(TOTAL NUMERO_AFFAIRE), '0.0%') \n,  Count(NUMERO_AFFAIRE)\n)",
+        "type": "expression"
+      }
+    },
+    "legend": {
+      "show": false,
+      "dock": "auto",
+      "showTitle": true
+    },
+    "tooltip": {
+      "auto": true,
+      "hideBasic": false,
+      "chart": {
+        "style": {
+          "size": "medium"
+        }
+      },
+      "data": {}
+    },
+    "visualization": "piechart",
+    "version": "1.39.8",
+    "components": [
+      {
+        "key": "general",
+        "style": {
+          "strokeWidth": "none",
+          "strokeColor": {
+            "index": -1,
+            "color": "#FFFFFF"
+          },
+          "cornerRadius": 0,
+          "innerRadius": 0.55
+        },
+        "title": {
+          "main": {
+            "fontFamily": "Roboto, sans-serif",
+            "fontSize": "16px",
+            "color": {
+              "index": -1,
+              "color": "#83161c",
+              "alpha": 1
+            }
+          }
+        }
+      },
+      {
+        "key": "bar"
+      },
+      {
+        "key": "axis"
+      },
+      {
+        "key": "label",
+        "label": {
+          "value": {
+            "fontSize": "14px"
+          }
+        }
+      },
+      {
+        "key": "legend"
+      },
+      {
+        "key": "slices",
+        "style": {
+          "strokeWidth": "small"
+        }
+      }
+    ],
+    "qLayoutExclude": {
+      "quarantine": {
+        "conditionalShowHide": {
+          "measures": {
+            "cqJWjtj": {
+              "qCond": {
+                "qv": ""
+              },
+              "qMsg": {
+                "qv": ""
+              }
+            }
+          },
+          "dimensions": {
+            "UUPNWm": {
+              "qCond": {
+                "qv": ""
+              },
+              "qMsg": {
+                "qv": ""
+              }
+            }
+          }
+        },
+        "supportedAutoMinMax": {
+          "measureAxis.min": 0,
+          "measureAxis.max": 10
+        }
+      },
+      "disabled": {
+        "qExtendsId": "",
+        "refLine": {
+          "refLines": [],
+          "dimRefLines": []
+        },
+        "plugins": [],
+        "barGrouping": {
+          "grouping": "grouped"
+        },
+        "orientation": "horizontal",
+        "scrollbar": "miniChart",
+        "scrollStartPos": 0,
+        "gridLine": {
+          "auto": false,
+          "spacing": 0
+        },
+        "dimensionAxis": {
+          "continuousAuto": true,
+          "show": "labels",
+          "label": "auto",
+          "dock": "near",
+          "axisDisplayMode": "auto",
+          "maxVisibleItems": 10
+        },
+        "preferContinuousAxis": true,
+        "measureAxis": {
+          "show": "all",
+          "dock": "near",
+          "spacing": 1,
+          "autoMinMax": true,
+          "minMax": "min",
+          "min": 0,
+          "max": 10
+        },
+        "showMiniChartForContinuousAxis": true
+      }
+    },
+    "masterVersion": 0.96
+  },
+  "qChildren": []
+}
