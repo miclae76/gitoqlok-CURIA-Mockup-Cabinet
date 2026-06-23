@@ -28,16 +28,8 @@
       "disableCellNavMenu": false,
       "disableCellContextMenu": false,
       "chartAnimations": true,
-      "presets": [
-        {
-          "id": "UyQk",
-          "name": "Untitled preset",
-          "toolbar": {
-            "show": false
-          }
-        }
-      ],
-      "activePreset": "UyQk"
+      "presets": [],
+      "activePreset": "default"
     },
     "qChildren": []
   }
