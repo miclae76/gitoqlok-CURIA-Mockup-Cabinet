@@ -12,10 +12,11 @@
     "qHyperCubeDef": {
       "qDimensions": [
         {
-          "qLibraryId": "vvXVt",
           "qDef": {
             "qGrouping": "N",
-            "qFieldDefs": [],
+            "qFieldDefs": [
+              "FORMATION"
+            ],
             "qFieldLabels": [
               ""
             ],
@@ -29,9 +30,11 @@
             ],
             "qNumberPresentations": [],
             "qActiveField": 0,
+            "qAlias": "FORMATION",
             "autoSort": true,
             "cId": "RFCSdM",
-            "othersLabel": "Others"
+            "othersLabel": "Others",
+            "qScriptGenerated": false
           },
           "qOtherTotalSpec": {
             "qOtherMode": "OTHER_COUNTED",

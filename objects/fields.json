@@ -252,9 +252,7 @@
       "$ascii",
       "$text"
     ],
-    "qSrcTables": [
-      "test"
-    ]
+    "qSrcTables": []
   },
   {
     "qName": "Vision",

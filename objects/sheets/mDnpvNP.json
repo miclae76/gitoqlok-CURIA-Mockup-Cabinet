@@ -711,7 +711,7 @@
             "selectorFontSize": 14,
             "minHeight": 60,
             "iconSize": 72,
-            "cardMode": "fullbleed"
+            "cardMode": "plain"
           },
           "fallbackIcon": "*",
           "enableSheetLogoClearAll": true,
@@ -810,7 +810,7 @@
           "iconPath": "icons/justice.png",
           "customIconUrl": "",
           "showIcon": true,
-          "selectorMode": "buttons",
+          "selectorMode": "radio",
           "selectorSource": "variable",
           "variableName": "v_Affichage",
           "defaultVariableValue": "PCT",
@@ -849,17 +849,20 @@
             "valueBold": true,
             "iconWrapSize": 48,
             "buttonActiveBackgroundColor": "#8C6C39",
-            "selectorSize": 30,
+            "selectorSize": 20,
             "selectorFontSize": 14,
             "minHeight": 60,
             "iconSize": 72,
             "buttonBackgroundColor": "",
             "buttonActiveTextColor": "#FFFFFF",
-            "cardMode": "fullbleed"
+            "cardMode": "plain",
+            "radioRowHeight": 20,
+            "radioGap": 0
           },
           "fallbackIcon": "*",
-          "equalButtonWidth": true,
-          "enableSheetLogoClearAll": true
+          "equalButtonWidth": false,
+          "enableSheetLogoClearAll": true,
+          "radioOrientation": "horizontal"
         },
         "visualization": "custom-kpi-card",
         "version": "1.0.0",

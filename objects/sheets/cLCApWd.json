@@ -20,28 +20,28 @@
         "name": "DmJvUg",
         "type": "custom-kpi-card",
         "col": 0,
-        "row": 0,
-        "colspan": 9,
-        "rowspan": 2,
+        "row": 9,
+        "colspan": 18,
+        "rowspan": 9,
         "bounds": {
-          "y": 0,
+          "y": 50,
           "x": 0,
-          "width": 25,
-          "height": 11.11111111111111
+          "width": 50,
+          "height": 50
         }
       },
       {
         "name": "mPkhgj",
         "type": "custom-kpi-card",
-        "col": 20,
-        "row": 0,
-        "colspan": 16,
-        "rowspan": 2,
+        "col": 0,
+        "row": 2,
+        "colspan": 18,
+        "rowspan": 7,
         "bounds": {
-          "y": 0,
-          "x": 55.55555555555556,
-          "width": 44.44444444444444,
-          "height": 11.11111111111111
+          "y": 11.11111111111111,
+          "x": 0,
+          "width": 50,
+          "height": 38.88888888888889
         }
       },
       {
@@ -56,6 +56,20 @@
           "x": 55.55555555555556,
           "width": 44.44444444444444,
           "height": 22.22222222222222
+        }
+      },
+      {
+        "name": "RAPah",
+        "type": "sn-nav-menu",
+        "col": 0,
+        "row": 0,
+        "colspan": 36,
+        "rowspan": 1,
+        "bounds": {
+          "y": 0,
+          "x": 0,
+          "width": 100,
+          "height": 5.555555555555555
         }
       }
     ],
@@ -567,6 +581,43 @@
           },
           "quarantine": {}
         }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "RAPah",
+          "qType": "sn-nav-menu"
+        },
+        "qMetaDef": {},
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": true,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "layoutOptions": {
+          "drawerMode": false,
+          "showDrawerIcon": true,
+          "drawerPanelPosition": "left",
+          "orientation": "horizontal",
+          "layout": "fill",
+          "alignment": "top-center",
+          "sameItemWidth": true,
+          "separateItems": false,
+          "useDivider": false,
+          "dividerColor": {
+            "color": "#404040",
+            "index": -1
+          },
+          "largeItems": false,
+          "showItemIcons": false
+        },
+        "visualization": "sn-nav-menu",
+        "version": "\"0.13.2\"",
+        "components": []
       },
       "qChildren": []
     }
