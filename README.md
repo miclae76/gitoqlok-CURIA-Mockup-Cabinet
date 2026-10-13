@@ -6,11 +6,11 @@ Created By miclae76(Michael Laenen) at Tue Jun 23 2026 13:55:20 GMT+0200 (Centra
 
 
 
-Sheet Title | Description
------------- | -------------
-Reporting Cabinet (1)|
-My new sheet (1)|
-Reporting Cabinet|
+Sheet Title | Group | Description
+------------ | ------------- | -------------
+Reporting Cabinet (1)||
+My new sheet (1)||
+Reporting Cabinet||
 
 
 

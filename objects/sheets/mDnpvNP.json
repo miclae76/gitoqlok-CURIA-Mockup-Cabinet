@@ -189,26 +189,12 @@
         "type": "action-button",
         "col": 24,
         "row": 4,
-        "colspan": 11,
+        "colspan": 12,
         "rowspan": 1,
         "bounds": {
           "y": 22.22222222222222,
           "x": 66.66666666666666,
-          "width": 30.555555555555557,
-          "height": 5.555555555555555
-        }
-      },
-      {
-        "name": "MGpCEP",
-        "type": "action-button",
-        "col": 35,
-        "row": 4,
-        "colspan": 1,
-        "rowspan": 1,
-        "bounds": {
-          "y": 22.22222222222222,
-          "x": 97.22222222222221,
-          "width": 2.7777777777777777,
+          "width": 33.33333333333333,
           "height": 5.555555555555555
         }
       }
@@ -2251,129 +2237,6 @@
           "version": "1.0.0",
           "author": "OpenAI Codex"
         }
-      },
-      "qChildren": []
-    },
-    {
-      "qProperty": {
-        "qInfo": {
-          "qId": "MGpCEP",
-          "qType": "action-button"
-        },
-        "qMetaDef": {},
-        "runtimeExpressionEvaluation": false,
-        "actions": [
-          {
-            "actionLabel": "",
-            "actionType": "clearAll",
-            "bookmark": "",
-            "field": "",
-            "variable": "",
-            "showSystemVariables": false,
-            "softLock": false,
-            "value": "",
-            "partial": false,
-            "automationId": "",
-            "automationPostData": false,
-            "automationTriggered": false,
-            "automationShowNotification": false,
-            "automationNotificationDuration": 4,
-            "automationOpenLinkSameWindow": false,
-            "inputParameters": [],
-            "cyclicDimensionId": "",
-            "indexStepper": 1,
-            "groupFieldIndex": 0,
-            "cId": "hypnd"
-          }
-        ],
-        "navigation": {
-          "action": "none",
-          "appId": "",
-          "sheet": "",
-          "chartId": "",
-          "story": "",
-          "websiteUrl": "",
-          "sameWindow": false,
-          "odagLink": ""
-        },
-        "useEnabledCondition": false,
-        "enabledCondition": 1,
-        "showTitles": false,
-        "title": "",
-        "subtitle": "",
-        "footnote": "",
-        "disableNavMenu": true,
-        "showDetails": false,
-        "showDetailsExpression": false,
-        "style": {
-          "label": "",
-          "showLabel": true,
-          "icon": {
-            "useIcon": true,
-            "iconType": "clear-filter",
-            "position": "left"
-          },
-          "font": {
-            "fontFamily": "Source Sans Pro",
-            "useColorExpression": false,
-            "color": {
-              "index": -1,
-              "color": "#ffffff"
-            },
-            "colorExpression": "",
-            "size": 0.8,
-            "sizeFixed": 20,
-            "sizeBehavior": "responsive",
-            "style": {
-              "bold": true,
-              "italic": false,
-              "underline": false
-            },
-            "align": "center"
-          },
-          "background": {
-            "useColorExpression": false,
-            "color": {
-              "index": 3,
-              "color": "#a54343",
-              "alpha": 1
-            },
-            "colorExpression": "",
-            "mode": "none",
-            "useImage": false,
-            "url": {
-              "qStaticContentUrlDef": {}
-            },
-            "size": "auto",
-            "position": "centerCenter"
-          },
-          "border": {
-            "useColorExpression": false,
-            "color": {
-              "index": -1,
-              "color": "none"
-            },
-            "colorExpression": "",
-            "useBorder": true,
-            "radius": 1,
-            "width": 0
-          }
-        },
-        "components": [
-          {
-            "key": "general",
-            "borderWidth": "0px",
-            "bgColor": {
-              "color": {
-                "index": 0,
-                "color": "none",
-                "alpha": 1
-              }
-            }
-          }
-        ],
-        "visualization": "action-button",
-        "version": "2.1.2"
       },
       "qChildren": []
     }
